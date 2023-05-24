@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card-movie {
+    background-image: url('capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 510px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.card-movie img {
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 43%;
+}
+
+.card-movie h1, h2 {
+    text-shadow: 2px 0 #1E90FF, -2px 0 #1E90FF, 0 2px #1E90FF, 0 -2px #1E90FF,
+             1px 1px #1E90FF, -1px -1px #1E90FF, 1px -1px #1E90FF, -1px 1px #1E90FF;
+    color: #FFD700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 502px;
+    background-color: powderblue;
+}
